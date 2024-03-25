@@ -1,0 +1,53 @@
+{
+    "packages": [
+        {
+            "name": "brianpando/plantumlgen",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brianpando/plantUmlGen.git",
+                "reference": "bb9d70efa1031e82fde1e3c595eeb1d3e6051fc2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brianpando/plantUmlGen/zipball/bb9d70efa1031e82fde1e3c595eeb1d3e6051fc2",
+                "reference": "bb9d70efa1031e82fde1e3c595eeb1d3e6051fc2",
+                "shasum": ""
+            },
+            "time": "2019-10-13T21:39:29+00:00",
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Brianpando\\Plantumlgen\\PlantServiceProvider"
+                    ]
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Brianpando\\Plantumlgen\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Brian Pando",
+                    "email": "unasbrian@gmail.com"
+                }
+            ],
+            "description": "package for code generate by plantUml Tool",
+            "support": {
+                "issues": "https://github.com/brianpando/plantUmlGen/issues",
+                "source": "https://github.com/brianpando/plantUmlGen/tree/1.0.0"
+            },
+            "install-path": "../brianpando/plantumlgen"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
